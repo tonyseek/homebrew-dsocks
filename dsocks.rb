@@ -22,8 +22,9 @@ __END__
 
 Index: dsocks.c
 ===================================================================
---- dsocks.c	(revision 12)
-+++ dsocks.c	(working copy)
+diff --git a/trunk/dsocks.c b/trunk/dsocks.c
+--- a/trunk/dsocks.c	(revision 12)
++++ b/trunk/dsocks.c	(working copy)
 @@ -21,6 +21,7 @@
  # define __DARWIN_LDBL_COMPAT(x) /* nothing */
  #endif
@@ -46,8 +47,9 @@ Index: dsocks.c
  		warnx("(dsocks) couldn't connect to proxy at %s",
 Index: dsocks.sh
 ===================================================================
---- dsocks.sh	(revision 12)
-+++ dsocks.sh	(working copy)
+diff --git a/trunk/dsocks.sh b/trunk/dsocks.sh
+--- a/trunk/dsocks.sh	(revision 12)
++++ b/trunk/dsocks.sh	(working copy)
 @@ -7,7 +7,7 @@
  #export DSOCKS_VERSION="Tor"
  
