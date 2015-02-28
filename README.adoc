@@ -1,0 +1,24 @@
+= Homebrew DSOCKS
+
+This repository included a Homebrew formula which could install a patched
+link:http://monkey.org/~dugsong/dsocks/[dsocks] to make it working in
+OS X Yosemite. It is modified from the Homebrew's official formula.
+
+== Installation
+
+ $ brew install tonyseek/dsocks/dsocks
+
+== Usage
+
+ $ export DSOCKS_VERSION=5
+ $ export DSOCKS_PROXY='127.0.0.1:1080'
+ $ export DSOCKS_NAMESERVER='8.8.8.8'
+ $ dsocks curl https://httpbin.org/ip
+ {
+   "origin": "xxx.xxx.xxx.xxx"
+ }
+
+== Links
+
+- link:http://monkey.org/~dugsong/dsocks/[DSOCKS Project Home]
+- link:https://github.com/Homebrew/homebrew/commit/e2d162dbd83a2a75fe789327220c490efdc63bde#diff-615a596171dbf460e1a0c5dd5ee78b73[Official Formula]
