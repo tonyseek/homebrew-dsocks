@@ -6,6 +6,8 @@ OS X Yosemite. It is modified from the Homebrew's official formula.
 
 == Installation
 
+ $ brew uninstall dsocks
+ $ brew tap tonyseek/dsocks
  $ brew install tonyseek/dsocks/dsocks
 
 == Usage
