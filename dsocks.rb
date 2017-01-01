@@ -3,7 +3,7 @@ require 'formula'
 class Dsocks < Formula
   desc "SOCKS client wrapper for *BSD/OS X"
   homepage "http://monkey.org/~dugsong/dsocks/"
-  url "https://dsocks.googlecode.com/files/dsocks-1.8.tar.gz"
+  url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsocks/dsocks-1.8.tar.gz"
   sha256 "2b57fb487633f6d8b002f7fe1755480ae864c5e854e88b619329d9f51c980f1d"
 
   conflicts_with "dsocks", :because => "shipped dynamic library is conflict with official formula."
